@@ -4,7 +4,8 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "setup": "pnpm install --latest",
+    "up": "pnpm update --latest",
+    "dev": "pnpm install && pnpm run up",
     "prod": "pnpm install --omit=dev",
     "start": "tsc && node ."
   },
