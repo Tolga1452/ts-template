@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "up": "pnpm update --latest",
-    "dev": "pnpm install && pnpm run up",
+    "dev": "pnpm install",
     "prod": "pnpm install --omit=dev",
     "start": "tsc && node ."
   },
