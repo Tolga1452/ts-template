@@ -1,7 +1,7 @@
 {
   "name": "ts-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A template for TypeScript projects.",
   "main": "./dist/index.js",
   "scripts": {
     "up": "pnpm update --latest",
@@ -9,9 +9,9 @@
     "prod": "pnpm install --omit=dev",
     "start": "tsc && node ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["typescript", "ts", "template", "project"],
+  "author": "Tolgchu",
+  "license": "MIT",
   "type": "module",
   "devDependencies": {
     "@types/node": "^24.3.0",
