@@ -6,14 +6,14 @@
   "scripts": {
     "up": "pnpm update --latest",
     "dev": "pnpm install",
-    "prod": "pnpm install --omit=dev",
+    "prod": "pnpm install --prod",
     "start": "tsc && node ."
   },
   "keywords": ["typescript", "ts", "template", "project"],
   "author": "Tolgchu",
   "license": "MIT",
   "type": "module",
-  "devDependencies": {
+  "dependencies": {
     "@types/node": "^24.3.0",
     "typescript": "^5.9.2"
   }
