@@ -1,4 +1,9 @@
-# TypeScript Template
+<h2 align="center">
+	TypeScript Template
+  <br />
+  <br />
+	<a href="https://notbyai.fyi"><img src="https://raw.githubusercontent.com/Tolga1452/ts-template/main/assets/notbyai.png" height="42px" /></a>
+</h1>
 
 This is a simple base template for starting new TypeScript projects.
 
